@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/storage/homefs/bj20p045/NewRL/Det/DQN/vizualize.py", line 101, in <module>
+    visualize_dqn(
+  File "/storage/homefs/bj20p045/NewRL/Det/DQN/vizualize.py", line 21, in visualize_dqn
+    agent = DQNAgent(env)
+            ^^^^^^^^^^^^^
+TypeError: DQNAgent.__init__() missing 3 required positional arguments: 'action_space', 'cfg', and 'device'

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/storage/homefs/bj20p045/NewRL/Non-Det/DDQN/run.py", line 8, in <module>
+    Trainer(cfg, device).run(episodes=cfg.epochs)
+    ^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/NewRL/Non-Det/DDQN/trainer.py", line 23, in __init__
+    self.recent_wins = deque(maxlen=300)
+                       ^^^^^
+NameError: name 'deque' is not defined

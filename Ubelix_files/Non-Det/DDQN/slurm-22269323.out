@@ -1,0 +1,41 @@
+wandb: Currently logged in as: bastien-jossen (bastien-jossen-university-of-bern) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /storage/homefs/bj20p045/NewRL/Non-Det/DDQN/wandb/run-20250528_211329-4z2hn94w
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run non_det_DDQN_run_1748459608
+wandb: ⭐️ View project at https://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL_reruns
+wandb: 🚀 View run at https://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL_reruns/runs/4z2hn94w
+Traceback (most recent call last):
+  File "/storage/homefs/bj20p045/NewRL/Non-Det/DDQN/run.py", line 8, in <module>
+    Trainer(cfg, device).run(episodes=cfg.epochs)
+  File "/storage/homefs/bj20p045/NewRL/Non-Det/DDQN/trainer.py", line 41, in run
+    a = self.agent.select_action(state,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/NewRL/Non-Det/DDQN/agent.py", line 48, in select_action
+    q   = self.model(inp).squeeze(0)  # (n_actions,)
+          ^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/.conda/envs/dl_a2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/.conda/envs/dl_a2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/NewRL/Non-Det/DDQN/model.py", line 34, in forward
+    x = F.relu(self.conv1(x))
+               ^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/.conda/envs/dl_a2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/.conda/envs/dl_a2/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/.conda/envs/dl_a2/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/homefs/bj20p045/.conda/envs/dl_a2/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [128, 2, 3, 3], expected input[1, 3, 9, 9] to have 2 channels, but got 3 channels instead
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mnon_det_DDQN_run_1748459608[0m at: [34mhttps://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL_reruns/runs/4z2hn94w[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250528_211329-4z2hn94w/logs[0m

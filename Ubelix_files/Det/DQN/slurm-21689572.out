@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/storage/homefs/bj20p045/NewRL/Det/DQN/vizualize.py", line 100, in <module>
+    visualize_dqn(
+  File "/storage/homefs/bj20p045/NewRL/Det/DQN/vizualize.py", line 20, in visualize_dqn
+    agent = DQNAgent(env)
+            ^^^^^^^^
+NameError: name 'DQNAgent' is not defined

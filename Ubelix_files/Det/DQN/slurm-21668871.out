@@ -1,0 +1,60 @@
+wandb: Currently logged in as: bastien-jossen (bastien-jossen-university-of-bern) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /storage/homefs/bj20p045/NewRL/Det/DQN/wandb/run-20250518_124201-20l8vvzb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DQN_run_1747564920
+wandb: ⭐️ View project at https://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL
+wandb: 🚀 View run at https://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL/runs/20l8vvzb
+Episode 1000 | Return: -1.00 | Win: 0.00
+Episode 2000 | Return: 3.00 | Win: 0.00
+Episode 3000 | Return: 2.00 | Win: 0.00
+Episode 4000 | Return: 0.00 | Win: 0.00
+Episode 5000 | Return: 0.00 | Win: 0.00
+Episode 6000 | Return: 0.00 | Win: 0.00
+Episode 7000 | Return: -1.00 | Win: 0.00
+Episode 8000 | Return: 5.00 | Win: 0.00
+Episode 9000 | Return: -3.00 | Win: 0.00
+Episode 10000 | Return: 8.00 | Win: 0.00
+Episode 11000 | Return: 4.00 | Win: 0.00
+Episode 12000 | Return: -1.00 | Win: 0.00
+Episode 13000 | Return: -1.00 | Win: 0.00
+Episode 14000 | Return: 20.00 | Win: 0.00
+Episode 15000 | Return: 19.00 | Win: 0.00
+Episode 16000 | Return: 15.00 | Win: 0.00
+Episode 17000 | Return: 43.00 | Win: 1.00
+Episode 18000 | Return: 45.00 | Win: 1.00
+Episode 19000 | Return: 4.00 | Win: 0.00
+Episode 20000 | Return: 50.00 | Win: 1.00
+Episode 21000 | Return: 23.00 | Win: 0.00
+Episode 22000 | Return: 47.00 | Win: 1.00
+Episode 23000 | Return: 13.00 | Win: 0.00
+Episode 24000 | Return: 47.00 | Win: 1.00
+Episode 25000 | Return: 45.00 | Win: 1.00
+Episode 26000 | Return: 44.00 | Win: 1.00
+Episode 27000 | Return: 47.00 | Win: 1.00
+Episode 28000 | Return: 44.00 | Win: 1.00
+Episode 29000 | Return: 46.00 | Win: 1.00
+Episode 30000 | Return: 47.00 | Win: 1.00
+Episode 31000 | Return: 46.00 | Win: 1.00
+Episode 32000 | Return: 45.00 | Win: 1.00
+Episode 33000 | Return: 47.00 | Win: 1.00
+Episode 34000 | Return: 45.00 | Win: 1.00
+Episode 35000 | Return: 43.00 | Win: 1.00
+Episode 36000 | Return: 45.00 | Win: 1.00
+Episode 37000 | Return: 50.00 | Win: 1.00
+Episode 38000 | Return: 44.00 | Win: 1.00
+Episode 39000 | Return: 43.00 | Win: 1.00
+Episode 40000 | Return: 45.00 | Win: 1.00
+Episode 41000 | Return: 47.00 | Win: 1.00
+Episode 42000 | Return: 43.00 | Win: 1.00
+Episode 43000 | Return: 43.00 | Win: 1.00
+Episode 44000 | Return: 45.00 | Win: 1.00
+Episode 45000 | Return: 49.00 | Win: 1.00
+Episode 46000 | Return: 46.00 | Win: 1.00
+Episode 47000 | Return: 43.00 | Win: 1.00
+Episode 48000 | Return: 46.00 | Win: 1.00
+Episode 49000 | Return: 44.00 | Win: 1.00
+Episode 50000 | Return: 44.00 | Win: 1.00
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mDQN_run_1747564920[0m at: [34mhttps://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL/runs/20l8vvzb[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20250518_124201-20l8vvzb/logs[0m

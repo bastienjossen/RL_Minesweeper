@@ -1,0 +1,8 @@
+wandb: Currently logged in as: bastien-jossen (bastien-jossen-university-of-bern) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.11
+wandb: Run data is saved locally in /storage/homefs/bj20p045/NewRL/Det/DQN/wandb/run-20250518_122559-vof3ps7q
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DQN_run_1747563958
+wandb: ⭐️ View project at https://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL
+wandb: 🚀 View run at https://wandb.ai/bastien-jossen-university-of-bern/minesweeper-RL/runs/vof3ps7q
+slurmstepd: error: *** JOB 21668693 ON gnode34 CANCELLED AT 2025-05-18T12:27:25 ***
